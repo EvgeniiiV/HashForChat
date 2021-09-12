@@ -1,8 +1,6 @@
 #include "Chat.h"
 #include "iostream"
 
-
-
 Chat::Chat() {
     data_count = 0;    
     data = new AuthData[mem_size];
